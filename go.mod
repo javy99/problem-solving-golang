@@ -1,3 +1,3 @@
 module github.com/javy99/problem-solving-golang
 
-go 1.24.2
+go 1.24

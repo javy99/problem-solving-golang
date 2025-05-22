@@ -92,6 +92,26 @@ Welcome to my journey of mastering Data Structures and Algorithms (DSA) by solvi
 
 ---
 
+## 📌 Contributing Rules & Branch Naming Convention
+
+To keep this repository clean, consistent, and collaboration-ready, we follow a few naming and commit conventions.
+
+### ✅ Branch Naming Convention
+
+Create branches using the format:
+**Example:**
+1-arrays/1-two-sum
+
+---
+
+### ✅ Pull Request Naming Convention
+
+PR titles must follow the format:
+**Example:**
+1-arrays/1-two-sum: implement two sum solution using hashmap
+
+---
+
 ## 🔗 Resources
 
 - [NeetCode Practice Platform](https://neetcode.io/practice)
