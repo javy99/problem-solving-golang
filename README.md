@@ -1,3 +1,8 @@
+# Problem Solving in Golang
+
+[![Go CI](https://github.com/javy99/problem-solving-golang/actions/workflows/ci.yml/badge.svg)](https://github.com/javy99/problem-solving-golang/actions/workflows/ci.yml)
+
+
 # 🚀 NeetCode 150 in Go
 
 [![Go Version](https://img.shields.io/badge/Go-1.20-blue.svg)](https://golang.org/dl/)
@@ -96,19 +101,23 @@ Welcome to my journey of mastering Data Structures and Algorithms (DSA) by solvi
 
 To keep this repository clean, consistent, and collaboration-ready, we follow a few naming and commit conventions.
 
+---
+
 ### ✅ Branch Naming Convention
 
-Create branches using the format:
+Create branches using the format below:
+
 **Example:**
-1-arrays/1-two-sum
+`1-arrays/1-two-sum`
 
 ---
 
 ### ✅ Pull Request Naming Convention
 
-PR titles must follow the format:
+Pull request titles must follow the format below:
+
 **Example:**
-1-arrays/1-two-sum: implement two sum solution using hashmap
+`1-arrays/1-two-sum: implement two sum solution using hashmap`
 
 ---
 
