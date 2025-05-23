@@ -2,7 +2,7 @@
 
 [![Go CI](https://github.com/javy99/problem-solving-golang/actions/workflows/ci.yml/badge.svg)](https://github.com/javy99/problem-solving-golang/actions/workflows/ci.yml)
 
-[![codecov](https://codecov.io/gh/javy99/problem-solving-golang/branch/master/graph/badge.svg?token=YOUR_CODECOV_TOKEN)](https://codecov.io/gh/javy99/problem-solving-golang)
+[![codecov](https://codecov.io/gh/javy99/problem-solving-golang/branch/master/graph/badge.svg?token=O2R79NNN6X)](https://codecov.io/gh/javy99/problem-solving-golang)
 
 # 🚀 NeetCode 150 in Go
 

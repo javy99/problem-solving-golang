@@ -1,0 +1,13 @@
+coverage:
+  status:
+    project:
+      default:
+        target: 80%
+        threshold: 1%
+        base: auto
+        if_not_found: success
+comment:
+  layout: "reach, diff, flags, files"
+  behavior: default
+  require_changes: true
+  after_n_builds: 1
