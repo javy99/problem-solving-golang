@@ -108,10 +108,10 @@ To keep this repository clean, consistent, and collaboration-ready, we follow a 
 
 Create branches using the format below:
 
-`<topic>/<problem-name>`
+`<topic>/<problem_name>`
 
 **Example:**
-`arrays_and_hashing/two-sum`
+`arrays_and_hashing/two_sum`
 
 ---
 
