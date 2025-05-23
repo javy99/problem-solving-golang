@@ -2,10 +2,11 @@
 
 [![Go CI](https://github.com/javy99/problem-solving-golang/actions/workflows/ci.yml/badge.svg)](https://github.com/javy99/problem-solving-golang/actions/workflows/ci.yml)
 
+[![codecov](https://codecov.io/gh/javy99/problem-solving-golang/branch/master/graph/badge.svg?token=YOUR_CODECOV_TOKEN)](https://codecov.io/gh/javy99/problem-solving-golang)
 
 # 🚀 NeetCode 150 in Go
 
-[![Go Version](https://img.shields.io/badge/Go-1.20-blue.svg)](https://golang.org/dl/)
+[![Go Version](https://img.shields.io/badge/Go-1.24-blue.svg)](https://golang.org/dl/)
 [![NeetCode Practice](https://img.shields.io/badge/NeetCode-Practice-blue)](https://neetcode.io/practice)
 [![LeetCode List](https://img.shields.io/badge/LeetCode-NeetCode%20150-orange)](https://leetcode.com/problem-list/plakya4j/)
 [![YouTube Playlist](https://img.shields.io/badge/YouTube-Playlist-red)](https://www.youtube.com/playlist?list=PLQZEzAa9dfpkv0kZkjomTj553gQyafNiB)
@@ -107,8 +108,10 @@ To keep this repository clean, consistent, and collaboration-ready, we follow a 
 
 Create branches using the format below:
 
+`<topic>/<problem-name>`
+
 **Example:**
-`1-arrays/1-two-sum`
+`arrays_and_hashing/two-sum`
 
 ---
 
@@ -116,8 +119,10 @@ Create branches using the format below:
 
 Pull request titles must follow the format below:
 
+`[<Topic>][<Problem Name>] - <What you did>`
+
 **Example:**
-`1-arrays/1-two-sum: implement two sum solution using hashmap`
+`[Arrays & Hashing][Two Sum] - Implement solution using hashmap`
 
 ---
 
