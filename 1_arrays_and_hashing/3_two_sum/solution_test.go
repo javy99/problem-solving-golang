@@ -22,12 +22,12 @@ func TestTwoSum(t *testing.T) {
 		{"Brute - Duplicates", TwoSumBruteForce, []int{3, 3}, 6, []int{0, 1}},
 
 		// Sorting (Two Pointer)
-		{"Sorted - Valid Pair", TwoSumSorted, []int{2, 7, 11, 15}, 9, []int{0, 1}},
-		{"Sorted - No Pair", TwoSumSorted, []int{1, 2, 3}, 7, nil},
-		{"Sorted - Empty", TwoSumSorted, []int{}, 0, nil},
-		{"Sorted - Single Element", TwoSumSorted, []int{5}, 5, nil},
-		{"Sorted - Negative Numbers", TwoSumSorted, []int{-3, 4, 3, 90}, 0, []int{0, 2}},
-		{"Sorted - Duplicates", TwoSumSorted, []int{3, 3}, 6, []int{0, 1}},
+		{"Sort - Valid Pair", TwoSumSort, []int{2, 7, 11, 15}, 9, []int{0, 1}},
+		{"Sort - No Pair", TwoSumSort, []int{1, 2, 3}, 7, nil},
+		{"Sort - Empty", TwoSumSort, []int{}, 0, nil},
+		{"Sort - Single Element", TwoSumSort, []int{5}, 5, nil},
+		{"Sort - Negative Numbers", TwoSumSort, []int{-3, 4, 3, 90}, 0, []int{0, 2}},
+		{"Sort - Duplicates", TwoSumSort, []int{3, 3}, 6, []int{0, 1}},
 
 		// Map Two-Pass
 		{"MapTwoPass - Valid Pair", TwoSumMapTwoPass, []int{2, 7, 11, 15}, 9, []int{0, 1}},

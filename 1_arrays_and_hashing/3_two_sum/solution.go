@@ -22,7 +22,7 @@ type Pair struct {
 
 // Time complexity: O(n log n)
 // Space complexity: O(n)
-func TwoSumSorted(nums []int, target int) []int {
+func TwoSumSort(nums []int, target int) []int {
 	pairs := make([]Pair, len(nums))
 	for i, v := range nums {
 		pairs[i] = Pair{val: v, idx: i}
