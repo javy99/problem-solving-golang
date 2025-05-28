@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-// Time complexity: O(n log n)
+// Time complexity: O(n * log n)
 // Space complexity : O(n)
 func IsAnagramSort(s, t string) bool {
 	if len(s) != len(t) {

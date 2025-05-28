@@ -16,10 +16,10 @@ func TestTwoSum(t *testing.T) {
 		// TwoSumBruteForce
 		{"Brute Force - Valid Pair", TwoSumBruteForce, []int{2, 7, 11, 15}, 9, []int{0, 1}},
 		{"Brute Force - No Pair", TwoSumBruteForce, []int{1, 2, 3}, 7, nil},
-		{"Brute - Empty", TwoSumBruteForce, []int{}, 0, nil},
-		{"Brute - Single Element", TwoSumBruteForce, []int{5}, 5, nil},
-		{"Brute - Negative Numbers", TwoSumBruteForce, []int{-3, 4, 3, 90}, 0, []int{0, 2}},
-		{"Brute - Duplicates", TwoSumBruteForce, []int{3, 3}, 6, []int{0, 1}},
+		{"Brute Force - Empty", TwoSumBruteForce, []int{}, 0, nil},
+		{"Brute Force - Single Element", TwoSumBruteForce, []int{5}, 5, nil},
+		{"Brute Force - Negative Numbers", TwoSumBruteForce, []int{-3, 4, 3, 90}, 0, []int{0, 2}},
+		{"Brute Force - Duplicates", TwoSumBruteForce, []int{3, 3}, 6, []int{0, 1}},
 
 		// Sorting (Two Pointer)
 		{"Sort - Valid Pair", TwoSumSort, []int{2, 7, 11, 15}, 9, []int{0, 1}},
