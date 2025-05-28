@@ -15,9 +15,9 @@ func ContainsDuplicatesBruteForce(nums []int) bool {
 	return false
 }
 
-// Time complexity: O(n log n)
+// Time complexity: O(n * log n)
 // Space complexity: O(1)
-func ContainsDuplicatesSorted(nums []int) bool {
+func ContainsDuplicatesSort(nums []int) bool {
 	sort.Ints(nums)
 	for i := 1; i < len(nums); i++ {
 		if nums[i] == nums[i-1] {

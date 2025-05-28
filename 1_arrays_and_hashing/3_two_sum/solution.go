@@ -20,7 +20,7 @@ type Pair struct {
 	idx int
 }
 
-// Time complexity: O(n log n)
+// Time complexity: O(n * log n)
 // Space complexity: O(n)
 func TwoSumSort(nums []int, target int) []int {
 	pairs := make([]Pair, len(nums))

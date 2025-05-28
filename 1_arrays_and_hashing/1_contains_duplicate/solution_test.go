@@ -15,11 +15,11 @@ func TestContainsDuplicates(t *testing.T) {
 		{"Brute Force - Empty Slice", ContainsDuplicatesBruteForce, []int{}, false},
 		{"Brute Force - Single Element", ContainsDuplicatesBruteForce, []int{42}, false},
 
-		// ContainsDuplicatesSorted
-		{"Sorted - Duplicates", ContainsDuplicatesSorted, []int{1, 2, 3, 3}, true},
-		{"Sorted - No Duplicates", ContainsDuplicatesSorted, []int{1, 2, 3, 4}, false},
-		{"Sorted - Empty Slice", ContainsDuplicatesSorted, []int{}, false},
-		{"Sorted - Single Element", ContainsDuplicatesSorted, []int{42}, false},
+		// ContainsDuplicatesSort
+		{"Sort - Duplicates", ContainsDuplicatesSort, []int{1, 2, 3, 3}, true},
+		{"Sort - No Duplicates", ContainsDuplicatesSort, []int{1, 2, 3, 4}, false},
+		{"Sort - Empty Slice", ContainsDuplicatesSort, []int{}, false},
+		{"Sort - Single Element", ContainsDuplicatesSort, []int{42}, false},
 
 		// ContainsDuplicatesMapBool
 		{"MapBool - Duplicates", ContainsDuplicatesMapBool, []int{1, 2, 3, 3}, true},
